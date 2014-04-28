@@ -22,6 +22,7 @@ public class ButtonClickCounter implements ResetableCounter
     /**
      * reset counter value to 0
      */
+      @Override
     public void reset() {
         this.counterVariable = 0;
     }
@@ -30,6 +31,7 @@ public class ButtonClickCounter implements ResetableCounter
      *  
      * @return counter value
      */
+      @Override
     public int value() {
         return this.counterVariable;
     }
@@ -37,6 +39,7 @@ public class ButtonClickCounter implements ResetableCounter
     /**
      * adds 1 to the counter value
      */
+      @Override
     public void up() {
         ++this.counterVariable;
     }
@@ -44,6 +47,7 @@ public class ButtonClickCounter implements ResetableCounter
     /**
      * subtracts 1 from the counter value
      */
+      @Override
     public void down() {
         --this.counterVariable;
     }

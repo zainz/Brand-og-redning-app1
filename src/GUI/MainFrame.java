@@ -6,17 +6,24 @@
 
 package GUI;
 
+import BE.ButtonClickCounter;
+
 /**
  *
  * @author Zainz
  */
 public class MainFrame extends javax.swing.JFrame {
-
+    
+    ButtonClickCounter  tbc1,tbc2,tbc3,tbc4,tbc5,tbc6,tbc7,tbc8,tbc9,tbc10,tbc11,
+                        tbc12,tbc13,tbc14,tbc15,tbc16,tbc17,tbc18,tbc19,tbc20,
+                        tbc21,tbc22,tbc23,tbc24,tbc25,tbc26,tbc27,tbc28,tbc29,
+                        tbc30,tbc31,tbc32,tbc33,tbc34,tbc35,tbc36;
     /**
      * Creates new form MainFrame
      */
     public MainFrame() {
         initComponents();
+        tbc1 = new ButtonClickCounter();
     }
 
     /**
@@ -284,7 +291,11 @@ public class MainFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
-        
+        tbc1.up();
+        if(tbc1.value()==2){
+            new LogOutWindow().setVisible(true);
+            tbc1.reset();
+        }
     }//GEN-LAST:event_jToggleButton1ActionPerformed
 
     /**

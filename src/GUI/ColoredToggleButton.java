@@ -34,7 +34,7 @@ class ColoredToggleButton extends JToggleButton {
             int h = getHeight();
             String s = getText();
 
-            // selected color
+            // selected button color
             g.setColor(Color.green);
             g.fillRect(0, 0, w, h);
             // selected text color
@@ -47,7 +47,7 @@ class ColoredToggleButton extends JToggleButton {
             int h = getHeight();
             String s = getText();
 
-            // selected color
+            // selected button color
             g.setColor(Color.red);
             g.fillRect(0, 0, w, h);
             // selected text color

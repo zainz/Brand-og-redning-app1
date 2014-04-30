@@ -8,6 +8,9 @@ package GUI;
 
 import BE.ButtonClickCounter;
 import BE.Firemen;
+import BLL.TimeLogBLL;
+import java.sql.SQLException;
+import java.util.ArrayList;
 import javax.swing.JToggleButton;
 
 /**
@@ -15,6 +18,10 @@ import javax.swing.JToggleButton;
  * @author Zainz
  */
 public class MainFrame extends javax.swing.JFrame {
+    
+    ArrayList<Firemen> firemen;
+    
+    TimeLogBLL          tlb;
     
     Firemen             fir1,fir2,fir3,fir4,fir5,fir6,fir7,fir8,fir9,fir10,fir11,
                         fir12,fir13,fir14,fir15,fir16,fir17,fir18,fir19,fir20,
@@ -28,44 +35,47 @@ public class MainFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainFrame
      */
-    public MainFrame() {
-        initComponents();
-        fir1 = new Firemen("","","","","","","","");
-        fir2 = new Firemen("","","","","","","","");
-        fir3 = new Firemen("","","","","","","","");
-        fir4 = new Firemen("","","","","","","","");
-        fir5 = new Firemen("","","","","","","","");
-        fir6 = new Firemen("","","","","","","","");
-        fir7 = new Firemen("","","","","","","","");
-        fir8 = new Firemen("","","","","","","","");
-        fir9 = new Firemen("","","","","","","","");
-        fir10 = new Firemen("","","","","","","","");
-        fir11 = new Firemen("","","","","","","","");
-        fir12 = new Firemen("","","","","","","","");
-        fir13 = new Firemen("","","","","","","","");
-        fir14 = new Firemen("","","","","","","","");
-        fir15 = new Firemen("","","","","","","","");
-        fir16 = new Firemen("","","","","","","","");
-        fir17 = new Firemen("","","","","","","","");
-        fir18 = new Firemen("","","","","","","","");
-        fir19 = new Firemen("","","","","","","","");
-        fir20 = new Firemen("","","","","","","","");
-        fir21 = new Firemen("","","","","","","","");
-        fir22 = new Firemen("","","","","","","","");
-        fir23 = new Firemen("","","","","","","","");
-        fir24 = new Firemen("","","","","","","","");
-        fir25 = new Firemen("","","","","","","","");
-        fir26 = new Firemen("","","","","","","","");
-        fir27 = new Firemen("","","","","","","","");
-        fir28 = new Firemen("","","","","","","","");
-        fir29 = new Firemen("","","","","","","","");
-        fir30 = new Firemen("","","","","","","","");
-        fir31 = new Firemen("","","","","","","","");
-        fir32 = new Firemen("","","","","","","","");
-        fir33 = new Firemen("","","","","","","","");
-        fir34 = new Firemen("","","","","","","","");
-        fir35 = new Firemen("","","","","","","","");
-        fir36 = new Firemen("","","","","","","","");
+    public MainFrame() throws SQLException {
+        tlb = new TimeLogBLL();
+        
+        firemen = tlb.getFiremen();
+        
+        fir1 = firemen.get(0);
+        fir2 = firemen.get(1);
+        fir3 = firemen.get(2);
+        fir4 = firemen.get(3);
+        fir5 = firemen.get(4);
+        fir6 = firemen.get(5);
+        fir7 = firemen.get(1);
+        fir8 = firemen.get(1);
+        fir9 = firemen.get(1);
+        fir10 = firemen.get(1);
+        fir11 = firemen.get(1);
+        fir12 = firemen.get(1);
+        fir13 = firemen.get(1);
+        fir14 = firemen.get(1);
+        fir15 = firemen.get(1);
+        fir16 = firemen.get(1);
+        fir17 = firemen.get(1);
+        fir18 = firemen.get(1);
+        fir19 = firemen.get(1);
+        fir20 = firemen.get(1);
+        fir21 = firemen.get(1);
+        fir22 = firemen.get(1);
+        fir23 = firemen.get(1);
+        fir24 = firemen.get(1);
+        fir25 = firemen.get(1);
+        fir26 = firemen.get(1);
+        fir27 = firemen.get(1);
+        fir28 = firemen.get(1);
+        fir29 = firemen.get(1);
+        fir30 = firemen.get(1);
+        fir31 = firemen.get(1);
+        fir32 = firemen.get(1);
+        fir33 = firemen.get(1);
+        fir34 = firemen.get(1);
+        fir35 = firemen.get(1);
+        fir36 = firemen.get(1);
         
         tbc1 = new ButtonClickCounter(0);
         tbc2 = new ButtonClickCounter(0);
@@ -103,6 +113,8 @@ public class MainFrame extends javax.swing.JFrame {
         tbc34 = new ButtonClickCounter(0);
         tbc35 = new ButtonClickCounter(0);
         tbc36 = new ButtonClickCounter(0);
+        
+        initComponents();
     }
 
     /**
@@ -155,119 +167,102 @@ public class MainFrame extends javax.swing.JFrame {
         setPreferredSize(new java.awt.Dimension(1280, 780));
         setResizable(false);
 
-        jToggleButton1.setText("jToggleButton1");
         jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton1ActionPerformed(evt);
             }
         });
 
-        jToggleButton2.setText("jToggleButton2");
         jToggleButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton2ActionPerformed(evt);
             }
         });
 
-        jToggleButton3.setText("jToggleButton3");
         jToggleButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton3ActionPerformed(evt);
             }
         });
 
-        jToggleButton4.setText("jToggleButton4");
         jToggleButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton4ActionPerformed(evt);
             }
         });
 
-        jToggleButton5.setText("jToggleButton5");
         jToggleButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton5ActionPerformed(evt);
             }
         });
 
-        jToggleButton6.setText("jToggleButton6");
         jToggleButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton6ActionPerformed(evt);
             }
         });
 
-        jToggleButton7.setText("jToggleButton7");
         jToggleButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton7ActionPerformed(evt);
             }
         });
 
-        jToggleButton8.setText("jToggleButton8");
         jToggleButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton8ActionPerformed(evt);
             }
         });
 
-        jToggleButton9.setText("jToggleButton9");
         jToggleButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton9ActionPerformed(evt);
             }
         });
 
-        jToggleButton10.setText("jToggleButton10");
         jToggleButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton10ActionPerformed(evt);
             }
         });
 
-        jToggleButton11.setText("jToggleButton11");
         jToggleButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton11ActionPerformed(evt);
             }
         });
 
-        jToggleButton12.setText("jToggleButton12");
         jToggleButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton12ActionPerformed(evt);
             }
         });
 
-        jToggleButton13.setText("jToggleButton13");
         jToggleButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton13ActionPerformed(evt);
             }
         });
 
-        jToggleButton14.setText("jToggleButton14");
         jToggleButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton14ActionPerformed(evt);
             }
         });
 
-        jToggleButton15.setText("jToggleButton15");
         jToggleButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton15ActionPerformed(evt);
             }
         });
 
-        jToggleButton16.setText("jToggleButton16");
         jToggleButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton16ActionPerformed(evt);
             }
         });
 
-        jToggleButton17.setText("jToggleButton17");
         jToggleButton17.setToolTipText("");
         jToggleButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -275,133 +270,114 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
-        jToggleButton18.setText("jToggleButton18");
         jToggleButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton18ActionPerformed(evt);
             }
         });
 
-        jToggleButton19.setText("jToggleButton19");
         jToggleButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton19ActionPerformed(evt);
             }
         });
 
-        jToggleButton20.setText("jToggleButton20");
         jToggleButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton20ActionPerformed(evt);
             }
         });
 
-        jToggleButton21.setText("jToggleButton21");
         jToggleButton21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton21ActionPerformed(evt);
             }
         });
 
-        jToggleButton22.setText("jToggleButton22");
         jToggleButton22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton22ActionPerformed(evt);
             }
         });
 
-        jToggleButton23.setText("jToggleButton23");
         jToggleButton23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton23ActionPerformed(evt);
             }
         });
 
-        jToggleButton24.setText("jToggleButton24");
         jToggleButton24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton24ActionPerformed(evt);
             }
         });
 
-        jToggleButton25.setText("jToggleButton25");
         jToggleButton25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton25ActionPerformed(evt);
             }
         });
 
-        jToggleButton26.setText("jToggleButton26");
         jToggleButton26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton26ActionPerformed(evt);
             }
         });
 
-        jToggleButton27.setText("jToggleButton27");
         jToggleButton27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton27ActionPerformed(evt);
             }
         });
 
-        jToggleButton28.setText("jToggleButton28");
         jToggleButton28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton28ActionPerformed(evt);
             }
         });
 
-        jToggleButton29.setText("jToggleButton29");
         jToggleButton29.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton29ActionPerformed(evt);
             }
         });
 
-        jToggleButton30.setText("jToggleButton30");
         jToggleButton30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton30ActionPerformed(evt);
             }
         });
 
-        jToggleButton31.setText("jToggleButton31");
         jToggleButton31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton31ActionPerformed(evt);
             }
         });
 
-        jToggleButton32.setText("jToggleButton32");
         jToggleButton32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton32ActionPerformed(evt);
             }
         });
 
-        jToggleButton33.setText("jToggleButton33");
         jToggleButton33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton33ActionPerformed(evt);
             }
         });
 
-        jToggleButton34.setText("jToggleButton34");
         jToggleButton34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton34ActionPerformed(evt);
             }
         });
 
-        jToggleButton35.setText("jToggleButton35");
         jToggleButton35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton35ActionPerformed(evt);
             }
         });
 
-        jToggleButton36.setText("jToggleButton36");
         jToggleButton36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton36ActionPerformed(evt);
@@ -583,18 +559,18 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton3ActionPerformed
         tbc4.up();
         
-        if(tbc4.value()==2) new LogOutWindow(this, tbc4, jToggleButton6).setVisible(true);
+        if(tbc4.value()==2) new LogOutWindow(this, tbc4, jToggleButton3).setVisible(true);
         if(tbc4.value()>=2) tbc4.down();
             
-        if(tbc4.value() % 2 == 0) jToggleButton6.setSelected(false);
-        if(tbc4.value() % 2 == 1) jToggleButton6.setSelected(true);
+        if(tbc4.value() % 2 == 0) jToggleButton3.setSelected(false);
+        if(tbc4.value() % 2 == 1) jToggleButton3.setSelected(true);
     }//GEN-LAST:event_jToggleButton3ActionPerformed
 
     private void jToggleButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton4ActionPerformed
         tbc5.up();
         
         if(tbc5.value()==2) new LogOutWindow(this, tbc5, jToggleButton4).setVisible(true);
-        if(tbc5.value()>=2) tbc1.down();
+        if(tbc5.value()>=2) tbc5.down();
             
         if(tbc5.value() % 2 == 0) jToggleButton4.setSelected(false);
         if(tbc5.value() % 2 == 1) jToggleButton4.setSelected(true);
@@ -603,7 +579,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton5ActionPerformed
         tbc6.up();
         
-        if(tbc6.value()==2) new LogOutWindow(this, tbc6, jToggleButton1).setVisible(true);
+        if(tbc6.value()==2) new LogOutWindow(this, tbc6, jToggleButton5).setVisible(true);
         if(tbc6.value()>=2) tbc6.down();
             
         if(tbc6.value() % 2 == 0) jToggleButton5.setSelected(false);
@@ -633,7 +609,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton17ActionPerformed
         tbc9.up();
         
-        if(tbc9.value()==2) new LogOutWindow(this, tbc1, jToggleButton17).setVisible(true);
+        if(tbc9.value()==2) new LogOutWindow(this, tbc9, jToggleButton17).setVisible(true);
         if(tbc9.value()>=2) tbc9.down();
             
         if(tbc9.value() % 2 == 0) jToggleButton17.setSelected(false);
@@ -643,7 +619,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton22ActionPerformed
         tbc10.up();
         
-        if(tbc10.value()==2) new LogOutWindow(this, tbc1, jToggleButton22).setVisible(true);
+        if(tbc10.value()==2) new LogOutWindow(this, tbc10, jToggleButton22).setVisible(true);
         if(tbc10.value()>=2) tbc10.down();
             
         if(tbc10.value() % 2 == 0) jToggleButton22.setSelected(false);
@@ -713,11 +689,11 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton28ActionPerformed
         tbc17.up();
         
-        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton28).setVisible(true);
-        if(tbc1.value()>=2) tbc1.down();
+        if(tbc17.value()==2) new LogOutWindow(this, tbc17, jToggleButton28).setVisible(true);
+        if(tbc17.value()>=2) tbc17.down();
             
-        if(tbc1.value() % 2 == 0) jToggleButton28.setSelected(false);
-        if(tbc1.value() % 2 == 1) jToggleButton28.setSelected(true);
+        if(tbc17.value() % 2 == 0) jToggleButton28.setSelected(false);
+        if(tbc17.value() % 2 == 1) jToggleButton28.setSelected(true);
     }//GEN-LAST:event_jToggleButton28ActionPerformed
 
     private void jToggleButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton33ActionPerformed
@@ -753,11 +729,11 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton19ActionPerformed
         tbc21.up();
         
-        if(tbc21.value()==2) new LogOutWindow(this, tbc21, jToggleButton1).setVisible(true);
+        if(tbc21.value()==2) new LogOutWindow(this, tbc21, jToggleButton19).setVisible(true);
         if(tbc21.value()>=2) tbc21.down();
             
-        if(tbc21.value() % 2 == 0) jToggleButton1.setSelected(false);
-        if(tbc21.value() % 2 == 1) jToggleButton1.setSelected(true);
+        if(tbc21.value() % 2 == 0) jToggleButton19.setSelected(false);
+        if(tbc21.value() % 2 == 1) jToggleButton19.setSelected(true);
     }//GEN-LAST:event_jToggleButton19ActionPerformed
 
     private void jToggleButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton24ActionPerformed
@@ -909,41 +885,6 @@ public class MainFrame extends javax.swing.JFrame {
         if(tbc36.value() % 2 == 0) jToggleButton36.setSelected(false);
         if(tbc36.value() % 2 == 1) jToggleButton36.setSelected(true);
     }//GEN-LAST:event_jToggleButton36ActionPerformed
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MainFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MainFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MainFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MainFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new MainFrame().setVisible(true);
-            }
-        });
-    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JToggleButton jToggleButton1;

@@ -19,7 +19,7 @@ import javax.swing.JButton;
  */
 class ColoredButton extends JButton {
   String s;
-
+  
   public ColoredButton(String str) {
     super(str);
     s = str;

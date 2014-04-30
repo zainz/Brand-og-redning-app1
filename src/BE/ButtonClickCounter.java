@@ -14,17 +14,18 @@ import GUI.ResetableCounter;
  */
 public class ButtonClickCounter implements ResetableCounter
     {
-      int counterVariable;
-      public ButtonClickCounter(){
-          counterVariable = 0;
+      int counts;
+      public ButtonClickCounter(int counts){
+          this.counts = 0;
     }
+      
 
     /**
      * reset counter value to 0
      */
       @Override
     public void reset() {
-        this.counterVariable = 0;
+        this.counts = 0;
     }
 
     /**
@@ -33,7 +34,7 @@ public class ButtonClickCounter implements ResetableCounter
      */
       @Override
     public int value() {
-        return this.counterVariable;
+        return this.counts;
     }
 
     /**
@@ -41,7 +42,7 @@ public class ButtonClickCounter implements ResetableCounter
      */
       @Override
     public void up() {
-        ++this.counterVariable;
+        ++this.counts;
     }
 
     /**
@@ -49,6 +50,6 @@ public class ButtonClickCounter implements ResetableCounter
      */
       @Override
     public void down() {
-        --this.counterVariable;
+        --this.counts;
     }
     }

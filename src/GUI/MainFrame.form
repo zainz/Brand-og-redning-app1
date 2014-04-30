@@ -28,91 +28,102 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Component id="jToggleButton5" min="-2" pref="210" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton32" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton33" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton34" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton35" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton36" min="-2" pref="210" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <Component id="jToggleButton4" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton27" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton28" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton29" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton30" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton31" min="-2" pref="210" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <Component id="jToggleButton3" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton22" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton23" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton24" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton25" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton26" min="-2" pref="210" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <Component id="jToggleButton6" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton17" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton18" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton19" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton20" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton21" min="-2" pref="210" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jToggleButton2" min="-2" pref="210" max="-2" attributes="0"/>
+                      <Component id="jToggleButton5" min="-2" pref="205" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton10" min="-2" pref="210" max="-2" attributes="0"/>
+                      <Component id="jToggleButton32" min="-2" pref="205" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton12" min="-2" pref="210" max="-2" attributes="0"/>
+                      <Component id="jToggleButton33" min="-2" pref="205" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jToggleButton34" min="-2" pref="205" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jToggleButton35" min="-2" pref="205" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="205" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jToggleButton1" min="-2" pref="210" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton9" min="-2" pref="210" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton7" min="-2" pref="210" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jToggleButton4" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton27" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton28" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton29" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton30" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton31" min="-2" pref="205" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jToggleButton3" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton22" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton23" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton24" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton25" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton26" min="-2" pref="205" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jToggleButton6" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton17" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton18" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton19" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton20" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton21" min="-2" pref="205" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jToggleButton2" min="-2" pref="205" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jToggleButton10" min="-2" pref="205" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jToggleButton12" min="-2" pref="205" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jToggleButton1" min="-2" pref="205" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jToggleButton9" min="-2" pref="205" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jToggleButton7" min="-2" pref="205" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jToggleButton8" min="-2" pref="205" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jToggleButton11" min="-2" pref="205" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jToggleButton13" min="-2" pref="205" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jToggleButton14" min="-2" pref="205" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jToggleButton15" min="-2" pref="205" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jToggleButton16" min="-2" pref="205" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jToggleButton8" min="-2" pref="210" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton11" min="-2" pref="210" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton13" min="-2" pref="210" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jToggleButton14" min="-2" pref="210" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton15" min="-2" pref="210" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jToggleButton16" min="-2" pref="210" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
           </Group>
       </Group>
     </DimensionLayout>
@@ -120,57 +131,59 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jToggleButton1" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton8" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton7" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton9" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton11" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton13" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
+                  <Component id="jToggleButton1" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton8" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton7" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton9" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton11" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton13" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jToggleButton10" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton12" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton14" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton15" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton16" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton2" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jToggleButton10" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="jToggleButton12" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="jToggleButton14" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="jToggleButton15" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="jToggleButton16" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jToggleButton2" min="-2" pref="115" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jToggleButton6" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton17" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton18" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton19" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton20" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton21" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
+                  <Component id="jToggleButton6" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton17" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton18" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton19" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton20" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton21" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jToggleButton3" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton22" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton23" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton24" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton25" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton26" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
+                  <Component id="jToggleButton3" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton22" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton23" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton24" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton25" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton26" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jToggleButton4" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton27" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton28" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton29" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton30" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton31" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
+                  <Component id="jToggleButton4" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton27" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton28" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton29" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton30" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton31" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jToggleButton5" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton32" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton33" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton34" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton35" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
-                  <Component id="jToggleButton36" alignment="3" min="-2" pref="120" max="-2" attributes="0"/>
+                  <Component id="jToggleButton5" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton32" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton33" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton34" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jToggleButton35" alignment="3" min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" pref="115" max="-2" attributes="0"/>
               </Group>
           </Group>
       </Group>
@@ -192,6 +205,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton2"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton2ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -200,6 +216,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton3"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton3ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -208,6 +227,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton4"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton4ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -216,6 +238,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton5"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton5ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -224,6 +249,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton6"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton6ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -232,6 +260,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton7"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton7ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -240,6 +271,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton8"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton8ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -248,6 +282,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton9"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton9ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -256,6 +293,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton10"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton10ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -264,6 +304,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton11"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton11ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -272,6 +315,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton12"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton12ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -280,6 +326,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton13"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton13ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -288,6 +337,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton14"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton14ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -296,6 +348,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton15"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton15ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -304,6 +359,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton16"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton16ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -313,6 +371,9 @@
         <Property name="text" type="java.lang.String" value="jToggleButton17"/>
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton17ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -321,6 +382,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton18"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton18ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -329,6 +393,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton19"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton19ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -337,6 +404,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton20"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton20ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -345,6 +415,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton21"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton21ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -353,6 +426,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton22"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton22ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -361,6 +437,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton23"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton23ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -369,6 +448,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton24"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton24ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -377,6 +459,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton25"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton25ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -385,6 +470,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton26"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton26ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -393,6 +481,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton27"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton27ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -401,6 +492,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton28"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton28ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -409,6 +503,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton29"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton29ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -417,6 +514,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton30"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton30ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -425,6 +525,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton31"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton31ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -433,6 +536,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton32"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton32ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -441,6 +547,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton33"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton33ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -449,6 +558,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton34"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton34ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
@@ -457,17 +569,20 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="jToggleButton35"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton35ActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JToggleButton" name="jToggleButton36">
+    <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jToggleButton36"/>
+        <Property name="text" type="java.lang.String" value="jButton1"/>
       </Properties>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
-      </AuxValues>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

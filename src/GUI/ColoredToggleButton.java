@@ -6,6 +6,7 @@
 
 package GUI;
 
+import BE.Firemen;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.SystemColor;
@@ -17,8 +18,15 @@ import javax.swing.JToggleButton;
  * @author Zainz
  */
 class ColoredToggleButton extends JToggleButton {
+  Firemen f;
   String s;
 
+  public ColoredToggleButton(Firemen fir) {
+    super();
+    f = fir;
+//    this.setText(fir.getFirstname()+" "+fir.getLastname());
+  }
+  
   public ColoredToggleButton(String str, Boolean sel) {
     super(str, sel);
     s = str;

@@ -7,6 +7,7 @@
 package GUI;
 
 import BE.ButtonClickCounter;
+import javax.swing.JToggleButton;
 
 /**
  *
@@ -14,6 +15,7 @@ import BE.ButtonClickCounter;
  */
 public class MainFrame extends javax.swing.JFrame {
     
+      
     ButtonClickCounter  tbc1,tbc2,tbc3,tbc4,tbc5,tbc6,tbc7,tbc8,tbc9,tbc10,tbc11,
                         tbc12,tbc13,tbc14,tbc15,tbc16,tbc17,tbc18,tbc19,tbc20,
                         tbc21,tbc22,tbc23,tbc24,tbc25,tbc26,tbc27,tbc28,tbc29,
@@ -23,42 +25,42 @@ public class MainFrame extends javax.swing.JFrame {
      */
     public MainFrame() {
         initComponents();
-        tbc1 = new ButtonClickCounter();
-        tbc2 = new ButtonClickCounter();
-        tbc3 = new ButtonClickCounter();
-        tbc4 = new ButtonClickCounter();
-        tbc5 = new ButtonClickCounter();
-        tbc6 = new ButtonClickCounter();
-        tbc7 = new ButtonClickCounter();
-        tbc8 = new ButtonClickCounter();
-        tbc9 = new ButtonClickCounter();
-        tbc10 = new ButtonClickCounter();
-        tbc11 = new ButtonClickCounter();
-        tbc12 = new ButtonClickCounter();
-        tbc13 = new ButtonClickCounter();
-        tbc14 = new ButtonClickCounter();
-        tbc15 = new ButtonClickCounter();
-        tbc16 = new ButtonClickCounter();
-        tbc17 = new ButtonClickCounter();
-        tbc18 = new ButtonClickCounter();
-        tbc19 = new ButtonClickCounter();
-        tbc20 = new ButtonClickCounter();
-        tbc21 = new ButtonClickCounter();
-        tbc22 = new ButtonClickCounter();
-        tbc23 = new ButtonClickCounter();
-        tbc24 = new ButtonClickCounter();
-        tbc25 = new ButtonClickCounter();
-        tbc26 = new ButtonClickCounter();
-        tbc27 = new ButtonClickCounter();
-        tbc28 = new ButtonClickCounter();
-        tbc29 = new ButtonClickCounter();
-        tbc30 = new ButtonClickCounter();
-        tbc31 = new ButtonClickCounter();
-        tbc32 = new ButtonClickCounter();
-        tbc33 = new ButtonClickCounter();
-        tbc34 = new ButtonClickCounter();
-        tbc35 = new ButtonClickCounter();
-        tbc36 = new ButtonClickCounter();
+        tbc1 = new ButtonClickCounter(0);
+        tbc2 = new ButtonClickCounter(0);
+        tbc3 = new ButtonClickCounter(0);
+        tbc4 = new ButtonClickCounter(0);
+        tbc5 = new ButtonClickCounter(0);
+        tbc6 = new ButtonClickCounter(0);
+        tbc7 = new ButtonClickCounter(0);
+        tbc8 = new ButtonClickCounter(0);
+        tbc9 = new ButtonClickCounter(0);
+        tbc10 = new ButtonClickCounter(0);
+        tbc11 = new ButtonClickCounter(0);
+        tbc12 = new ButtonClickCounter(0);
+        tbc13 = new ButtonClickCounter(0);
+        tbc14 = new ButtonClickCounter(0);
+        tbc15 = new ButtonClickCounter(0);
+        tbc16 = new ButtonClickCounter(0);
+        tbc17 = new ButtonClickCounter(0);
+        tbc18 = new ButtonClickCounter(0);
+        tbc19 = new ButtonClickCounter(0);
+        tbc20 = new ButtonClickCounter(0);
+        tbc21 = new ButtonClickCounter(0);
+        tbc22 = new ButtonClickCounter(0);
+        tbc23 = new ButtonClickCounter(0);
+        tbc24 = new ButtonClickCounter(0);
+        tbc25 = new ButtonClickCounter(0);
+        tbc26 = new ButtonClickCounter(0);
+        tbc27 = new ButtonClickCounter(0);
+        tbc28 = new ButtonClickCounter(0);
+        tbc29 = new ButtonClickCounter(0);
+        tbc30 = new ButtonClickCounter(0);
+        tbc31 = new ButtonClickCounter(0);
+        tbc32 = new ButtonClickCounter(0);
+        tbc33 = new ButtonClickCounter(0);
+        tbc34 = new ButtonClickCounter(0);
+        tbc35 = new ButtonClickCounter(0);
+        tbc36 = new ButtonClickCounter(0);
     }
 
     /**
@@ -105,7 +107,7 @@ public class MainFrame extends javax.swing.JFrame {
         jToggleButton33 = new ColoredToggleButton("name", false);
         jToggleButton34 = new ColoredToggleButton("name", false);
         jToggleButton35 = new ColoredToggleButton("name", false);
-        jButton1 = new javax.swing.JButton();
+        jToggleButton36 = new ColoredToggleButton("name", false);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(1280, 780));
@@ -357,10 +359,10 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setText("jButton1");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton36.setText("jToggleButton36");
+        jToggleButton36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                jToggleButton36ActionPerformed(evt);
             }
         });
 
@@ -382,75 +384,72 @@ public class MainFrame extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jToggleButton35, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jToggleButton36, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jToggleButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton27, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton28, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton29, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton30, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jToggleButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton26, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jToggleButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jToggleButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton27, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton28, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton29, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton30, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jToggleButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jToggleButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton26, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jToggleButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jToggleButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jToggleButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jToggleButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jToggleButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jToggleButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jToggleButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jToggleButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jToggleButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(jToggleButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jToggleButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jToggleButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jToggleButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jToggleButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jToggleButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jToggleButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                                .addComponent(jToggleButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jToggleButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -502,7 +501,7 @@ public class MainFrame extends javax.swing.JFrame {
                     .addComponent(jToggleButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jToggleButton34, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jToggleButton35, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(jToggleButton36, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
         pack();
@@ -510,291 +509,364 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
         tbc1.up();
-        if(tbc1.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc1.reset();
-        }
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
+        
     }//GEN-LAST:event_jToggleButton1ActionPerformed
 
     private void jToggleButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton2ActionPerformed
         tbc2.up();
-        if(tbc2.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc2.reset();
-        }
+        
+        if(tbc2.value()==2) new LogOutWindow(this, tbc2, jToggleButton2).setVisible(true);
+        if(tbc2.value()>=2) tbc2.down();
+            
+        if(tbc2.value() % 2 == 0) jToggleButton2.setSelected(false);
+        if(tbc2.value() % 2 == 1) jToggleButton2.setSelected(true);
     }//GEN-LAST:event_jToggleButton2ActionPerformed
 
     private void jToggleButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton6ActionPerformed
         tbc3.up();
-        if(tbc3.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc3.reset();
-        }
+        
+        if(tbc3.value()==2) new LogOutWindow(this, tbc3, jToggleButton6).setVisible(true);
+        if(tbc3.value()>=2) tbc3.down();
+            
+        if(tbc3.value() % 2 == 0) jToggleButton6.setSelected(false);
+        if(tbc3.value() % 2 == 1) jToggleButton6.setSelected(true);
     }//GEN-LAST:event_jToggleButton6ActionPerformed
 
     private void jToggleButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton3ActionPerformed
-        tbc4.up();
-        if(tbc4.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc4.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton3ActionPerformed
 
     private void jToggleButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton4ActionPerformed
-        tbc5.up();
-        if(tbc5.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc5.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton4ActionPerformed
 
     private void jToggleButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton5ActionPerformed
-        tbc6.up();
-        if(tbc6.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc6.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton5ActionPerformed
 
     private void jToggleButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton9ActionPerformed
-        tbc7.up();
-        if(tbc7.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc7.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton9ActionPerformed
 
     private void jToggleButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton10ActionPerformed
-        tbc8.up();
-        if(tbc8.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc8.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton10ActionPerformed
 
     private void jToggleButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton17ActionPerformed
-        tbc9.up();
-        if(tbc9.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc9.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton17ActionPerformed
 
     private void jToggleButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton22ActionPerformed
-        tbc10.up();
-        if(tbc10.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc10.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton22ActionPerformed
 
     private void jToggleButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton27ActionPerformed
-        tbc11.up();
-        if(tbc11.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc11.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton27ActionPerformed
 
     private void jToggleButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton32ActionPerformed
-        tbc12.up();
-        if(tbc12.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc12.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton32ActionPerformed
 
     private void jToggleButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton7ActionPerformed
-        tbc13.up();
-        if(tbc13.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc13.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton7ActionPerformed
 
     private void jToggleButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton12ActionPerformed
-        tbc14.up();
-        if(tbc14.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc14.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton12ActionPerformed
 
     private void jToggleButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton18ActionPerformed
-        tbc15.up();
-        if(tbc15.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc15.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton18ActionPerformed
 
     private void jToggleButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton23ActionPerformed
-        tbc16.up();
-        if(tbc16.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc16.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton23ActionPerformed
 
     private void jToggleButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton28ActionPerformed
-        tbc17.up();
-        if(tbc17.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc17.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton28ActionPerformed
 
     private void jToggleButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton33ActionPerformed
-        tbc18.up();
-        if(tbc18.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc18.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton33ActionPerformed
 
     private void jToggleButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton8ActionPerformed
-        tbc19.up();
-        if(tbc19.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc19.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton8ActionPerformed
 
     private void jToggleButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton14ActionPerformed
-        tbc20.up();
-        if(tbc20.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc20.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton14ActionPerformed
 
     private void jToggleButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton19ActionPerformed
-        tbc21.up();
-        if(tbc21.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc21.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton19ActionPerformed
 
     private void jToggleButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton24ActionPerformed
-        tbc22.up();
-        if(tbc22.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc22.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton24ActionPerformed
 
     private void jToggleButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton29ActionPerformed
-        tbc23.up();
-        if(tbc23.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc23.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton29ActionPerformed
 
     private void jToggleButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton34ActionPerformed
-        tbc24.up();
-        if(tbc24.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc24.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton34ActionPerformed
 
     private void jToggleButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton11ActionPerformed
-        tbc25.up();
-        if(tbc25.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc25.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton11ActionPerformed
 
     private void jToggleButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton15ActionPerformed
-        tbc26.up();
-        if(tbc26.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc26.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton15ActionPerformed
 
     private void jToggleButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton20ActionPerformed
-        tbc27.up();
-        if(tbc27.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc27.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton20ActionPerformed
 
     private void jToggleButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton25ActionPerformed
-        tbc28.up();
-        if(tbc28.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc28.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton25ActionPerformed
 
     private void jToggleButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton30ActionPerformed
-        tbc29.up();
-        if(tbc29.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc29.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton30ActionPerformed
 
     private void jToggleButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton35ActionPerformed
-        tbc30.up();
-        if(tbc30.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc30.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton35ActionPerformed
 
     private void jToggleButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton13ActionPerformed
-        tbc31.up();
-        if(tbc31.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc31.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton13ActionPerformed
 
     private void jToggleButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton16ActionPerformed
-        tbc32.up();
-        if(tbc32.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc32.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton16ActionPerformed
 
     private void jToggleButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton21ActionPerformed
-        tbc33.up();
-        if(tbc33.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc33.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton21ActionPerformed
 
     private void jToggleButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton26ActionPerformed
-        tbc34.up();
-        if(tbc34.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc34.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton26ActionPerformed
 
     private void jToggleButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton31ActionPerformed
-        tbc35.up();
-        if(tbc35.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc35.reset();
-        }
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton31ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        tbc36.up();
-        if(tbc36.value()==2){
-            new LogOutWindow().setVisible(true);
-            tbc36.reset();
-        }
-    }//GEN-LAST:event_jButton1ActionPerformed
+    private void jToggleButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton36ActionPerformed
+        tbc1.up();
+        
+        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
+        if(tbc1.value()>=2) tbc1.down();
+            
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
+    }//GEN-LAST:event_jToggleButton36ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -832,7 +904,6 @@ public class MainFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JToggleButton jToggleButton1;
     private javax.swing.JToggleButton jToggleButton10;
     private javax.swing.JToggleButton jToggleButton11;
@@ -862,6 +933,7 @@ public class MainFrame extends javax.swing.JFrame {
     private javax.swing.JToggleButton jToggleButton33;
     private javax.swing.JToggleButton jToggleButton34;
     private javax.swing.JToggleButton jToggleButton35;
+    private javax.swing.JToggleButton jToggleButton36;
     private javax.swing.JToggleButton jToggleButton4;
     private javax.swing.JToggleButton jToggleButton5;
     private javax.swing.JToggleButton jToggleButton6;
@@ -869,4 +941,10 @@ public class MainFrame extends javax.swing.JFrame {
     private javax.swing.JToggleButton jToggleButton8;
     private javax.swing.JToggleButton jToggleButton9;
     // End of variables declaration//GEN-END:variables
+
+    public void tbcReset(ButtonClickCounter btncc, JToggleButton tbtn) {
+        btncc.reset();
+        if(btncc.value() % 2 == 0) tbtn.setSelected(false);
+        if(btncc.value() % 2 == 1) tbtn.setSelected(true);
+    }
 }

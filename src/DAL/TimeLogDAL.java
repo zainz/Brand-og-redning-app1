@@ -35,7 +35,7 @@ public class TimeLogDAL extends AbstractDAL {
     public ArrayList<Firemen> getFiremen() throws SQLException{
         
         Connection con = null;
-        ArrayList<Firemen> f = null;
+        ArrayList<Firemen> f = new ArrayList();
         
         try{
             con = getConnection();

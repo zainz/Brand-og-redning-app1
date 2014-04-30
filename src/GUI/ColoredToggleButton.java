@@ -22,9 +22,9 @@ class ColoredToggleButton extends JToggleButton {
   String s;
 
   public ColoredToggleButton(Firemen fir) {
-    super();
+    super.setText(fir.getFirstname()+" "+fir.getLastname());
     f = fir;
-//    this.setText(fir.getFirstname()+" "+fir.getLastname());
+    
   }
   
   public ColoredToggleButton(String str, Boolean sel) {

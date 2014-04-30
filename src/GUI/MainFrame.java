@@ -7,6 +7,7 @@
 package GUI;
 
 import BE.ButtonClickCounter;
+import BE.Firemen;
 import javax.swing.JToggleButton;
 
 /**
@@ -15,7 +16,11 @@ import javax.swing.JToggleButton;
  */
 public class MainFrame extends javax.swing.JFrame {
     
-      
+    Firemen             fir1,fir2,fir3,fir4,fir5,fir6,fir7,fir8,fir9,fir10,fir11,
+                        fir12,fir13,fir14,fir15,fir16,fir17,fir18,fir19,fir20,
+                        fir21,fir22,fir23,fir24,fir25,fir26,fir27,fir28,fir29,
+                        fir30,fir31,fir32,fir33,fir34,fir35,fir36;
+                                
     ButtonClickCounter  tbc1,tbc2,tbc3,tbc4,tbc5,tbc6,tbc7,tbc8,tbc9,tbc10,tbc11,
                         tbc12,tbc13,tbc14,tbc15,tbc16,tbc17,tbc18,tbc19,tbc20,
                         tbc21,tbc22,tbc23,tbc24,tbc25,tbc26,tbc27,tbc28,tbc29,
@@ -25,6 +30,43 @@ public class MainFrame extends javax.swing.JFrame {
      */
     public MainFrame() {
         initComponents();
+        fir1 = new Firemen("","","","","","","","");
+        fir2 = new Firemen("","","","","","","","");
+        fir3 = new Firemen("","","","","","","","");
+        fir4 = new Firemen("","","","","","","","");
+        fir5 = new Firemen("","","","","","","","");
+        fir6 = new Firemen("","","","","","","","");
+        fir7 = new Firemen("","","","","","","","");
+        fir8 = new Firemen("","","","","","","","");
+        fir9 = new Firemen("","","","","","","","");
+        fir10 = new Firemen("","","","","","","","");
+        fir11 = new Firemen("","","","","","","","");
+        fir12 = new Firemen("","","","","","","","");
+        fir13 = new Firemen("","","","","","","","");
+        fir14 = new Firemen("","","","","","","","");
+        fir15 = new Firemen("","","","","","","","");
+        fir16 = new Firemen("","","","","","","","");
+        fir17 = new Firemen("","","","","","","","");
+        fir18 = new Firemen("","","","","","","","");
+        fir19 = new Firemen("","","","","","","","");
+        fir20 = new Firemen("","","","","","","","");
+        fir21 = new Firemen("","","","","","","","");
+        fir22 = new Firemen("","","","","","","","");
+        fir23 = new Firemen("","","","","","","","");
+        fir24 = new Firemen("","","","","","","","");
+        fir25 = new Firemen("","","","","","","","");
+        fir26 = new Firemen("","","","","","","","");
+        fir27 = new Firemen("","","","","","","","");
+        fir28 = new Firemen("","","","","","","","");
+        fir29 = new Firemen("","","","","","","","");
+        fir30 = new Firemen("","","","","","","","");
+        fir31 = new Firemen("","","","","","","","");
+        fir32 = new Firemen("","","","","","","","");
+        fir33 = new Firemen("","","","","","","","");
+        fir34 = new Firemen("","","","","","","","");
+        fir35 = new Firemen("","","","","","","","");
+        fir36 = new Firemen("","","","","","","","");
+        
         tbc1 = new ButtonClickCounter(0);
         tbc2 = new ButtonClickCounter(0);
         tbc3 = new ButtonClickCounter(0);
@@ -72,42 +114,42 @@ public class MainFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jToggleButton1 = new ColoredToggleButton("name", false);
-        jToggleButton2 = new ColoredToggleButton("name", false);
-        jToggleButton3 = new ColoredToggleButton("name", false);
-        jToggleButton4 = new ColoredToggleButton("name", false);
-        jToggleButton5 = new ColoredToggleButton("name", false);
-        jToggleButton6 = new ColoredToggleButton("name", false);
-        jToggleButton7 = new ColoredToggleButton("name", false);
-        jToggleButton8 = new ColoredToggleButton("name", false);
-        jToggleButton9 = new ColoredToggleButton("name", false);
-        jToggleButton10 = new ColoredToggleButton("name", false);
-        jToggleButton11 = new ColoredToggleButton("name", false);
-        jToggleButton12 = new ColoredToggleButton("name", false);
-        jToggleButton13 = new ColoredToggleButton("name", false);
-        jToggleButton14 = new ColoredToggleButton("name", false);
-        jToggleButton15 = new ColoredToggleButton("name", false);
-        jToggleButton16 = new ColoredToggleButton("name", false);
-        jToggleButton17 = new ColoredToggleButton("name", false);
-        jToggleButton18 = new ColoredToggleButton("name", false);
-        jToggleButton19 = new ColoredToggleButton("name", false);
-        jToggleButton20 = new ColoredToggleButton("name", false);
-        jToggleButton21 = new ColoredToggleButton("name", false);
-        jToggleButton22 = new ColoredToggleButton("name", false);
-        jToggleButton23 = new ColoredToggleButton("name", false);
-        jToggleButton24 = new ColoredToggleButton("name", false);
-        jToggleButton25 = new ColoredToggleButton("name", false);
-        jToggleButton26 = new ColoredToggleButton("name", false);
-        jToggleButton27 = new ColoredToggleButton("name", false);
-        jToggleButton28 = new ColoredToggleButton("name", false);
-        jToggleButton29 = new ColoredToggleButton("name", false);
-        jToggleButton30 = new ColoredToggleButton("name", false);
-        jToggleButton31 = new ColoredToggleButton("name", false);
-        jToggleButton32 = new ColoredToggleButton("name", false);
-        jToggleButton33 = new ColoredToggleButton("name", false);
-        jToggleButton34 = new ColoredToggleButton("name", false);
-        jToggleButton35 = new ColoredToggleButton("name", false);
-        jToggleButton36 = new ColoredToggleButton("name", false);
+        jToggleButton1 = new ColoredToggleButton(fir1);
+        jToggleButton2 = new ColoredToggleButton(fir12);
+        jToggleButton3 = new ColoredToggleButton(fir23);
+        jToggleButton4 = new ColoredToggleButton(fir30);
+        jToggleButton5 = new ColoredToggleButton(fir31);
+        jToggleButton6 = new ColoredToggleButton(fir32);
+        jToggleButton7 = new ColoredToggleButton(fir33);
+        jToggleButton8 = new ColoredToggleButton(fir34);
+        jToggleButton9 = new ColoredToggleButton(fir35);
+        jToggleButton10 = new ColoredToggleButton(fir2);
+        jToggleButton11 = new ColoredToggleButton(fir3);
+        jToggleButton12 = new ColoredToggleButton(fir4);
+        jToggleButton13 = new ColoredToggleButton(fir5);
+        jToggleButton14 = new ColoredToggleButton(fir6);
+        jToggleButton15 = new ColoredToggleButton(fir7);
+        jToggleButton16 = new ColoredToggleButton(fir8);
+        jToggleButton17 = new ColoredToggleButton(fir9);
+        jToggleButton18 = new ColoredToggleButton(fir10);
+        jToggleButton19 = new ColoredToggleButton(fir11);
+        jToggleButton20 = new ColoredToggleButton(fir13);
+        jToggleButton21 = new ColoredToggleButton(fir14);
+        jToggleButton22 = new ColoredToggleButton(fir15);
+        jToggleButton23 = new ColoredToggleButton(fir16);
+        jToggleButton24 = new ColoredToggleButton(fir17);
+        jToggleButton25 = new ColoredToggleButton(fir18);
+        jToggleButton26 = new ColoredToggleButton(fir19);
+        jToggleButton27 = new ColoredToggleButton(fir20);
+        jToggleButton28 = new ColoredToggleButton(fir21);
+        jToggleButton29 = new ColoredToggleButton(fir22);
+        jToggleButton30 = new ColoredToggleButton(fir24);
+        jToggleButton31 = new ColoredToggleButton(fir25);
+        jToggleButton32 = new ColoredToggleButton(fir26);
+        jToggleButton33 = new ColoredToggleButton(fir27);
+        jToggleButton34 = new ColoredToggleButton(fir28);
+        jToggleButton35 = new ColoredToggleButton(fir29);
+        jToggleButton36 = new ColoredToggleButton(fir36);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(1280, 780));

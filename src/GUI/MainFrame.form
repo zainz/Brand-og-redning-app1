@@ -193,7 +193,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton1ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir1)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton2">
@@ -204,7 +204,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton2ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir12)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton3">
@@ -215,7 +215,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton3ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir23)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton4">
@@ -226,7 +226,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton4ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir30)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton5">
@@ -237,7 +237,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton5ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir31)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton6">
@@ -248,7 +248,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton6ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir32)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton7">
@@ -259,7 +259,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton7ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir33)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton8">
@@ -270,7 +270,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton8ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir34)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton9">
@@ -281,7 +281,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton9ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir35)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton10">
@@ -292,7 +292,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton10ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir2)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton11">
@@ -303,7 +303,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton11ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir3)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton12">
@@ -314,7 +314,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton12ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir4)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton13">
@@ -325,7 +325,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton13ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir5)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton14">
@@ -336,7 +336,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton14ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir6)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton15">
@@ -347,7 +347,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton15ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir7)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton16">
@@ -358,7 +358,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton16ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir8)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton17">
@@ -370,7 +370,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton17ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir9)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton18">
@@ -381,7 +381,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton18ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir10)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton19">
@@ -392,7 +392,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton19ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir11)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton20">
@@ -403,7 +403,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton20ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir13)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton21">
@@ -414,7 +414,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton21ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir14)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton22">
@@ -425,7 +425,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton22ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir15)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton23">
@@ -436,7 +436,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton23ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir16)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton24">
@@ -447,7 +447,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton24ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir17)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton25">
@@ -458,7 +458,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton25ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir18)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton26">
@@ -469,7 +469,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton26ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir19)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton27">
@@ -480,7 +480,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton27ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir20)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton28">
@@ -491,7 +491,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton28ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir21)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton29">
@@ -502,7 +502,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton29ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir22)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton30">
@@ -513,7 +513,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton30ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir24)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton31">
@@ -524,7 +524,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton31ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir25)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton32">
@@ -535,7 +535,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton32ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir26)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton33">
@@ -546,7 +546,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton33ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir27)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton34">
@@ -557,7 +557,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton34ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir28)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton35">
@@ -568,7 +568,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton35ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir29)"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton36">
@@ -579,7 +579,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton36ActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(&quot;name&quot;, false)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ColoredToggleButton(fir36)"/>
       </AuxValues>
     </Component>
   </SubComponents>

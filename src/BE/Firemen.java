@@ -25,6 +25,16 @@ public class Firemen {
         this.portait = portait;
     }
     
+    public Firemen(String cpr, String firstname, String lastname, String address, String phone, String callnumber, String paymentnumber){
+        this.cpr = cpr;
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.address = address;
+        this.phone = phone;
+        this.callnumber = callnumber;
+        this.paymentnumber = paymentnumber;
+    }
+    
     
     
     public String getCpr() {

@@ -27,6 +27,13 @@ public class ButtonClickCounter implements ResetableCounter
     public void reset() {
         this.counts = 0;
     }
+      
+      /**
+     * reset counter value to 1
+     */
+    public void resetCancel() {
+        this.counts = 1;
+    }
 
     /**
      *  

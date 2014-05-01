@@ -13,6 +13,7 @@ import java.sql.SQLException;
 import java.sql.Time;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 import javax.swing.JToggleButton;
 
 /**
@@ -210,7 +211,7 @@ public class LogOutWindow extends javax.swing.JFrame {
         try {
             tl.timeRegister(f, type, role, holiday, loginTime);
         } catch (SQLException ex) {
-            Logger.getLogger(LogOutWindow.class.getName()).log(Level.SEVERE, null, ex);
+            JOptionPane.showMessageDialog(rootPane, ex);
         }
         
         mainFrame.tbcReset(btnNumber, toggleBtn);

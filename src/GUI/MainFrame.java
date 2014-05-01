@@ -11,6 +11,7 @@ import BE.Firemen;
 import BLL.TimeLogBLL;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 import javax.swing.JToggleButton;
 
 /**
@@ -19,7 +20,7 @@ import javax.swing.JToggleButton;
  */
 public class MainFrame extends javax.swing.JFrame {
     
-    ArrayList<Firemen> firemen;
+    ArrayList<Firemen>  firemen;
     
     TimeLogBLL          tlb;
     
@@ -35,10 +36,14 @@ public class MainFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainFrame
      */
-    public MainFrame() throws SQLException {
+    public MainFrame() {
         tlb = new TimeLogBLL();
         
-        firemen = tlb.getFiremen();
+        try{
+            firemen = tlb.getFiremen();
+        } catch(SQLException e){
+            JOptionPane.showMessageDialog(rootPane, e);
+        }
         
         fir1 = firemen.get(0);
         fir2 = firemen.get(1);
@@ -528,18 +533,17 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
         tbc1.up();
         
-        if(tbc1.value()==2) new LogOutWindow(this, tbc1, jToggleButton1).setVisible(true);
-        if(tbc1.value()>=2) tbc1.down();
-            
-        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
-        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
+        if(tbc1.value() == 2) new LogOutWindow(this, tbc1, jToggleButton1, fir1).setVisible(true);
+        if(tbc1.value() >= 2) tbc1.down();
         
+        if(tbc1.value() == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() == 1) jToggleButton1.setSelected(true);
     }//GEN-LAST:event_jToggleButton1ActionPerformed
 
     private void jToggleButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton2ActionPerformed
         tbc2.up();
         
-        if(tbc2.value()==2) new LogOutWindow(this, tbc2, jToggleButton2).setVisible(true);
+        if(tbc2.value()==2) new LogOutWindow(this, tbc2, jToggleButton2, fir12).setVisible(true);
         if(tbc2.value()>=2) tbc2.down();
             
         if(tbc2.value() % 2 == 0) jToggleButton2.setSelected(false);
@@ -549,7 +553,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton6ActionPerformed
         tbc3.up();
         
-        if(tbc3.value()==2) new LogOutWindow(this, tbc3, jToggleButton6).setVisible(true);
+        if(tbc3.value()==2) new LogOutWindow(this, tbc3, jToggleButton6, fir32).setVisible(true);
         if(tbc3.value()>=2) tbc3.down();
             
         if(tbc3.value() % 2 == 0) jToggleButton6.setSelected(false);
@@ -559,7 +563,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton3ActionPerformed
         tbc4.up();
         
-        if(tbc4.value()==2) new LogOutWindow(this, tbc4, jToggleButton3).setVisible(true);
+        if(tbc4.value()==2) new LogOutWindow(this, tbc4, jToggleButton3, fir23).setVisible(true);
         if(tbc4.value()>=2) tbc4.down();
             
         if(tbc4.value() % 2 == 0) jToggleButton3.setSelected(false);
@@ -569,7 +573,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton4ActionPerformed
         tbc5.up();
         
-        if(tbc5.value()==2) new LogOutWindow(this, tbc5, jToggleButton4).setVisible(true);
+        if(tbc5.value()==2) new LogOutWindow(this, tbc5, jToggleButton4, fir30).setVisible(true);
         if(tbc5.value()>=2) tbc5.down();
             
         if(tbc5.value() % 2 == 0) jToggleButton4.setSelected(false);
@@ -579,7 +583,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton5ActionPerformed
         tbc6.up();
         
-        if(tbc6.value()==2) new LogOutWindow(this, tbc6, jToggleButton5).setVisible(true);
+        if(tbc6.value()==2) new LogOutWindow(this, tbc6, jToggleButton5, fir31).setVisible(true);
         if(tbc6.value()>=2) tbc6.down();
             
         if(tbc6.value() % 2 == 0) jToggleButton5.setSelected(false);
@@ -589,7 +593,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton9ActionPerformed
         tbc7.up();
         
-        if(tbc7.value()==2) new LogOutWindow(this, tbc7, jToggleButton9).setVisible(true);
+        if(tbc7.value()==2) new LogOutWindow(this, tbc7, jToggleButton9, fir35).setVisible(true);
         if(tbc7.value()>=2) tbc7.down();
             
         if(tbc7.value() % 2 == 0) jToggleButton9.setSelected(false);
@@ -599,7 +603,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton10ActionPerformed
         tbc8.up();
         
-        if(tbc8.value()==2) new LogOutWindow(this, tbc8, jToggleButton10).setVisible(true);
+        if(tbc8.value()==2) new LogOutWindow(this, tbc8, jToggleButton10, fir2).setVisible(true);
         if(tbc8.value()>=2) tbc8.down();
             
         if(tbc8.value() % 2 == 0) jToggleButton10.setSelected(false);
@@ -609,7 +613,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton17ActionPerformed
         tbc9.up();
         
-        if(tbc9.value()==2) new LogOutWindow(this, tbc9, jToggleButton17).setVisible(true);
+        if(tbc9.value()==2) new LogOutWindow(this, tbc9, jToggleButton17, fir9).setVisible(true);
         if(tbc9.value()>=2) tbc9.down();
             
         if(tbc9.value() % 2 == 0) jToggleButton17.setSelected(false);
@@ -619,7 +623,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton22ActionPerformed
         tbc10.up();
         
-        if(tbc10.value()==2) new LogOutWindow(this, tbc10, jToggleButton22).setVisible(true);
+        if(tbc10.value()==2) new LogOutWindow(this, tbc10, jToggleButton22, fir15).setVisible(true);
         if(tbc10.value()>=2) tbc10.down();
             
         if(tbc10.value() % 2 == 0) jToggleButton22.setSelected(false);
@@ -629,7 +633,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton27ActionPerformed
         tbc11.up();
         
-        if(tbc11.value()==2) new LogOutWindow(this, tbc11, jToggleButton27).setVisible(true);
+        if(tbc11.value()==2) new LogOutWindow(this, tbc11, jToggleButton27, fir20).setVisible(true);
         if(tbc11.value()>=2) tbc11.down();
             
         if(tbc11.value() % 2 == 0) jToggleButton27.setSelected(false);
@@ -639,7 +643,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton32ActionPerformed
         tbc12.up();
         
-        if(tbc12.value()==2) new LogOutWindow(this, tbc12, jToggleButton32).setVisible(true);
+        if(tbc12.value()==2) new LogOutWindow(this, tbc12, jToggleButton32, fir26).setVisible(true);
         if(tbc12.value()>=2) tbc12.down();
             
         if(tbc12.value() % 2 == 0) jToggleButton32.setSelected(false);
@@ -649,7 +653,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton7ActionPerformed
         tbc13.up();
         
-        if(tbc13.value()==2) new LogOutWindow(this, tbc13, jToggleButton7).setVisible(true);
+        if(tbc13.value()==2) new LogOutWindow(this, tbc13, jToggleButton7, fir33).setVisible(true);
         if(tbc13.value()>=2) tbc13.down();
             
         if(tbc13.value() % 2 == 0) jToggleButton7.setSelected(false);
@@ -659,7 +663,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton12ActionPerformed
         tbc14.up();
         
-        if(tbc14.value()==2) new LogOutWindow(this, tbc14, jToggleButton12).setVisible(true);
+        if(tbc14.value()==2) new LogOutWindow(this, tbc14, jToggleButton12, fir4).setVisible(true);
         if(tbc14.value()>=2) tbc14.down();
             
         if(tbc14.value() % 2 == 0) jToggleButton12.setSelected(false);
@@ -669,7 +673,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton18ActionPerformed
         tbc15.up();
         
-        if(tbc15.value()==2) new LogOutWindow(this, tbc15, jToggleButton18).setVisible(true);
+        if(tbc15.value()==2) new LogOutWindow(this, tbc15, jToggleButton18, fir10).setVisible(true);
         if(tbc15.value()>=2) tbc15.down();
             
         if(tbc15.value() % 2 == 0) jToggleButton18.setSelected(false);
@@ -679,7 +683,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton23ActionPerformed
         tbc16.up();
         
-        if(tbc16.value()==2) new LogOutWindow(this, tbc16, jToggleButton23).setVisible(true);
+        if(tbc16.value()==2) new LogOutWindow(this, tbc16, jToggleButton23, fir16).setVisible(true);
         if(tbc16.value()>=2) tbc16.down();
             
         if(tbc16.value() % 2 == 0) jToggleButton23.setSelected(false);
@@ -689,7 +693,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton28ActionPerformed
         tbc17.up();
         
-        if(tbc17.value()==2) new LogOutWindow(this, tbc17, jToggleButton28).setVisible(true);
+        if(tbc17.value()==2) new LogOutWindow(this, tbc17, jToggleButton28, fir21).setVisible(true);
         if(tbc17.value()>=2) tbc17.down();
             
         if(tbc17.value() % 2 == 0) jToggleButton28.setSelected(false);
@@ -699,7 +703,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton33ActionPerformed
         tbc18.up();
         
-        if(tbc18.value()==2) new LogOutWindow(this, tbc18, jToggleButton33).setVisible(true);
+        if(tbc18.value()==2) new LogOutWindow(this, tbc18, jToggleButton33, fir27).setVisible(true);
         if(tbc18.value()>=2) tbc18.down();
             
         if(tbc18.value() % 2 == 0) jToggleButton33.setSelected(false);
@@ -709,7 +713,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton8ActionPerformed
         tbc19.up();
         
-        if(tbc19.value()==2) new LogOutWindow(this, tbc19, jToggleButton8).setVisible(true);
+        if(tbc19.value()==2) new LogOutWindow(this, tbc19, jToggleButton8, fir34).setVisible(true);
         if(tbc19.value()>=2) tbc19.down();
             
         if(tbc19.value() % 2 == 0) jToggleButton8.setSelected(false);
@@ -719,7 +723,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton14ActionPerformed
         tbc20.up();
         
-        if(tbc20.value()==2) new LogOutWindow(this, tbc20, jToggleButton14).setVisible(true);
+        if(tbc20.value()==2) new LogOutWindow(this, tbc20, jToggleButton14, fir6).setVisible(true);
         if(tbc20.value()>=2) tbc20.down();
             
         if(tbc20.value() % 2 == 0) jToggleButton14.setSelected(false);
@@ -729,7 +733,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton19ActionPerformed
         tbc21.up();
         
-        if(tbc21.value()==2) new LogOutWindow(this, tbc21, jToggleButton19).setVisible(true);
+        if(tbc21.value()==2) new LogOutWindow(this, tbc21, jToggleButton19, fir11).setVisible(true);
         if(tbc21.value()>=2) tbc21.down();
             
         if(tbc21.value() % 2 == 0) jToggleButton19.setSelected(false);
@@ -739,7 +743,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton24ActionPerformed
         tbc22.up();
         
-        if(tbc22.value()==2) new LogOutWindow(this, tbc22, jToggleButton24).setVisible(true);
+        if(tbc22.value()==2) new LogOutWindow(this, tbc22, jToggleButton24, fir17).setVisible(true);
         if(tbc22.value()>=2) tbc22.down();
             
         if(tbc22.value() % 2 == 0) jToggleButton24.setSelected(false);
@@ -749,7 +753,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton29ActionPerformed
         tbc23.up();
         
-        if(tbc23.value()==2) new LogOutWindow(this, tbc23, jToggleButton29).setVisible(true);
+        if(tbc23.value()==2) new LogOutWindow(this, tbc23, jToggleButton29, fir22).setVisible(true);
         if(tbc23.value()>=2) tbc23.down();
             
         if(tbc23.value() % 2 == 0) jToggleButton29.setSelected(false);
@@ -759,7 +763,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton34ActionPerformed
         tbc24.up();
         
-        if(tbc24.value()==2) new LogOutWindow(this, tbc24, jToggleButton34).setVisible(true);
+        if(tbc24.value()==2) new LogOutWindow(this, tbc24, jToggleButton34, fir28).setVisible(true);
         if(tbc24.value()>=2) tbc24.down();
             
         if(tbc24.value() % 2 == 0) jToggleButton34.setSelected(false);
@@ -769,7 +773,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton11ActionPerformed
         tbc25.up();
         
-        if(tbc25.value()==2) new LogOutWindow(this, tbc25, jToggleButton11).setVisible(true);
+        if(tbc25.value()==2) new LogOutWindow(this, tbc25, jToggleButton11, fir3).setVisible(true);
         if(tbc25.value()>=2) tbc25.down();
             
         if(tbc25.value() % 2 == 0) jToggleButton11.setSelected(false);
@@ -779,7 +783,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton15ActionPerformed
         tbc26.up();
         
-        if(tbc26.value()==2) new LogOutWindow(this, tbc26, jToggleButton15).setVisible(true);
+        if(tbc26.value()==2) new LogOutWindow(this, tbc26, jToggleButton15, fir7).setVisible(true);
         if(tbc26.value()>=2) tbc26.down();
             
         if(tbc26.value() % 2 == 0) jToggleButton15.setSelected(false);
@@ -789,7 +793,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton20ActionPerformed
         tbc27.up();
         
-        if(tbc27.value()==2) new LogOutWindow(this, tbc27, jToggleButton20).setVisible(true);
+        if(tbc27.value()==2) new LogOutWindow(this, tbc27, jToggleButton20, fir13).setVisible(true);
         if(tbc27.value()>=2) tbc27.down();
             
         if(tbc27.value() % 2 == 0) jToggleButton20.setSelected(false);
@@ -799,7 +803,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton25ActionPerformed
         tbc28.up();
         
-        if(tbc28.value()==2) new LogOutWindow(this, tbc28, jToggleButton25).setVisible(true);
+        if(tbc28.value()==2) new LogOutWindow(this, tbc28, jToggleButton25, fir18).setVisible(true);
         if(tbc28.value()>=2) tbc28.down();
             
         if(tbc28.value() % 2 == 0) jToggleButton25.setSelected(false);
@@ -809,7 +813,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton30ActionPerformed
         tbc29.up();
         
-        if(tbc29.value()==2) new LogOutWindow(this, tbc29, jToggleButton30).setVisible(true);
+        if(tbc29.value()==2) new LogOutWindow(this, tbc29, jToggleButton30, fir24).setVisible(true);
         if(tbc29.value()>=2) tbc29.down();
             
         if(tbc29.value() % 2 == 0) jToggleButton30.setSelected(false);
@@ -819,7 +823,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton35ActionPerformed
         tbc30.up();
         
-        if(tbc30.value()==2) new LogOutWindow(this, tbc30, jToggleButton35).setVisible(true);
+        if(tbc30.value()==2) new LogOutWindow(this, tbc30, jToggleButton35, fir29).setVisible(true);
         if(tbc30.value()>=2) tbc30.down();
             
         if(tbc30.value() % 2 == 0) jToggleButton35.setSelected(false);
@@ -829,7 +833,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton13ActionPerformed
         tbc31.up();
         
-        if(tbc31.value()==2) new LogOutWindow(this, tbc31, jToggleButton13).setVisible(true);
+        if(tbc31.value()==2) new LogOutWindow(this, tbc31, jToggleButton13, fir5).setVisible(true);
         if(tbc31.value()>=2) tbc31.down();
             
         if(tbc31.value() % 2 == 0) jToggleButton13.setSelected(false);
@@ -839,7 +843,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton16ActionPerformed
         tbc32.up();
         
-        if(tbc32.value()==2) new LogOutWindow(this, tbc32, jToggleButton16).setVisible(true);
+        if(tbc32.value()==2) new LogOutWindow(this, tbc32, jToggleButton16, fir8).setVisible(true);
         if(tbc32.value()>=2) tbc32.down();
             
         if(tbc32.value() % 2 == 0) jToggleButton16.setSelected(false);
@@ -849,7 +853,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton21ActionPerformed
         tbc33.up();
         
-        if(tbc33.value()==2) new LogOutWindow(this, tbc33, jToggleButton21).setVisible(true);
+        if(tbc33.value()==2) new LogOutWindow(this, tbc33, jToggleButton21, fir14).setVisible(true);
         if(tbc33.value()>=2) tbc33.down();
             
         if(tbc33.value() % 2 == 0) jToggleButton21.setSelected(false);
@@ -859,7 +863,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton26ActionPerformed
         tbc34.up();
         
-        if(tbc34.value()==2) new LogOutWindow(this, tbc34, jToggleButton26).setVisible(true);
+        if(tbc34.value()==2) new LogOutWindow(this, tbc34, jToggleButton26, fir19).setVisible(true);
         if(tbc34.value()>=2) tbc34.down();
             
         if(tbc34.value() % 2 == 0) jToggleButton26.setSelected(false);
@@ -869,7 +873,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton31ActionPerformed
         tbc35.up();
         
-        if(tbc35.value()==2) new LogOutWindow(this, tbc35, jToggleButton31).setVisible(true);
+        if(tbc35.value()==2) new LogOutWindow(this, tbc35, jToggleButton31, fir25).setVisible(true);
         if(tbc35.value()>=2) tbc35.down();
             
         if(tbc35.value() % 2 == 0) jToggleButton31.setSelected(false);
@@ -879,7 +883,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton36ActionPerformed
         tbc36.up();
         
-        if(tbc36.value()==2) new LogOutWindow(this, tbc36, jToggleButton36).setVisible(true);
+        if(tbc36.value()==2) new LogOutWindow(this, tbc36, jToggleButton36, fir36).setVisible(true);
         if(tbc36.value()>=2) tbc36.down();
             
         if(tbc36.value() % 2 == 0) jToggleButton36.setSelected(false);
@@ -927,6 +931,12 @@ public class MainFrame extends javax.swing.JFrame {
 
     public void tbcReset(ButtonClickCounter btncc, JToggleButton tbtn) {
         btncc.reset();
+        if(btncc.value() % 2 == 0) tbtn.setSelected(false);
+        if(btncc.value() % 2 == 1) tbtn.setSelected(true);
+    }
+    
+    public void tbcCancel(ButtonClickCounter btncc, JToggleButton tbtn){
+        btncc.resetCancel();
         if(btncc.value() % 2 == 0) tbtn.setSelected(false);
         if(btncc.value() % 2 == 1) tbtn.setSelected(true);
     }

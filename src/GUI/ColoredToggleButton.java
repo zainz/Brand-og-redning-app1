@@ -10,6 +10,8 @@ import BE.Firemen;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.SystemColor;
+import java.sql.Time;
+import java.sql.Timestamp;
 import javax.swing.Action;
 import javax.swing.JToggleButton;
 
@@ -31,11 +33,12 @@ class ColoredToggleButton extends JToggleButton {
     super(str, sel);
     s = str;
   }
-
+  
     @Override
     public void paintComponent(Graphics g)
     {
         super.paintComponent(g);
+        
         if (this.isSelected())
         {
             int w = getWidth();

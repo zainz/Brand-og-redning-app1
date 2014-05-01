@@ -7,6 +7,12 @@
 package GUI;
 
 import BE.ButtonClickCounter;
+import BE.Firemen;
+import BLL.TimeLogBLL;
+import java.sql.SQLException;
+import java.sql.Time;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JToggleButton;
 
 /**
@@ -18,15 +24,19 @@ public class LogOutWindow extends javax.swing.JFrame {
     MainFrame mainFrame;
     ButtonClickCounter btnNumber;
     JToggleButton toggleBtn;
+    TimeLogBLL tl;
+    Firemen f;
     /**
      * Creates new form LogOutWindow
      */
     
-    public LogOutWindow(MainFrame mf, ButtonClickCounter number, JToggleButton tBtn) {
+    public LogOutWindow(MainFrame mf, ButtonClickCounter number, JToggleButton tBtn, Firemen firemen) {
         initComponents();
         mainFrame = mf;
         btnNumber = number;
         toggleBtn = tBtn;
+        f = firemen;
+        tl = new TimeLogBLL();
     }
 
     /**
@@ -172,10 +182,26 @@ public class LogOutWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_jToggleButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        mainFrame.tbcCancel(btnNumber, toggleBtn);
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        int role = 1;
+        int type = 1;
+        boolean holiday =  false;
+        
+        if(jToggleButton1.isSelected()) role = 2;
+        if(jToggleButton2.isSelected()) type = 3;
+//        if(tbtnHoliday.isSelected()) holiday = true;
+        
+        try {
+            //Toggle Button skal ændres
+            tl.timeRegister(f, type, role, holiday, toggleBtn.getText());
+        } catch (SQLException ex) {
+            Logger.getLogger(LogOutWindow.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
         mainFrame.tbcReset(btnNumber, toggleBtn);
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed

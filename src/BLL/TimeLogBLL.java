@@ -61,6 +61,7 @@ public class TimeLogBLL {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+        
         return hours;
     }
 }

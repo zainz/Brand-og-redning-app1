@@ -10,7 +10,6 @@ import BE.ButtonClickCounter;
 import BE.Firemen;
 import BLL.TimeLogBLL;
 import java.sql.SQLException;
-import java.sql.Time;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -555,350 +554,455 @@ public class MainFrame extends javax.swing.JFrame {
         tbc2.up();
         
         if(tbc2.value()==2) new LogOutWindow(this, tbc2, jToggleButton2, fir12).setVisible(true);
-        if(tbc2.value()>=2) tbc2.down();
-            
+        
         if(tbc2.value() % 2 == 0) jToggleButton2.setSelected(false);
         if(tbc2.value() % 2 == 1) jToggleButton2.setSelected(true);
+        
+        if(tbc2.value() == 1) lit2 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc2.value()>=2) tbc2.down();
     }//GEN-LAST:event_jToggleButton2ActionPerformed
 
     private void jToggleButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton6ActionPerformed
         tbc3.up();
         
         if(tbc3.value()==2) new LogOutWindow(this, tbc3, jToggleButton6, fir32).setVisible(true);
-        if(tbc3.value()>=2) tbc3.down();
-            
+        
         if(tbc3.value() % 2 == 0) jToggleButton6.setSelected(false);
         if(tbc3.value() % 2 == 1) jToggleButton6.setSelected(true);
+        
+        if(tbc3.value() == 1) lit3 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc3.value()>=2) tbc3.down();
     }//GEN-LAST:event_jToggleButton6ActionPerformed
 
     private void jToggleButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton3ActionPerformed
         tbc4.up();
         
         if(tbc4.value()==2) new LogOutWindow(this, tbc4, jToggleButton3, fir23).setVisible(true);
-        if(tbc4.value()>=2) tbc4.down();
-            
+        
         if(tbc4.value() % 2 == 0) jToggleButton3.setSelected(false);
         if(tbc4.value() % 2 == 1) jToggleButton3.setSelected(true);
+        
+        if(tbc4.value() == 1) lit4 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc4.value()>=2) tbc4.down();
     }//GEN-LAST:event_jToggleButton3ActionPerformed
 
     private void jToggleButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton4ActionPerformed
         tbc5.up();
         
         if(tbc5.value()==2) new LogOutWindow(this, tbc5, jToggleButton4, fir30).setVisible(true);
-        if(tbc5.value()>=2) tbc5.down();
             
         if(tbc5.value() % 2 == 0) jToggleButton4.setSelected(false);
         if(tbc5.value() % 2 == 1) jToggleButton4.setSelected(true);
+        
+        if(tbc5.value() == 1) lit5 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc5.value()>=2) tbc5.down();
     }//GEN-LAST:event_jToggleButton4ActionPerformed
 
     private void jToggleButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton5ActionPerformed
         tbc6.up();
         
         if(tbc6.value()==2) new LogOutWindow(this, tbc6, jToggleButton5, fir31).setVisible(true);
-        if(tbc6.value()>=2) tbc6.down();
             
         if(tbc6.value() % 2 == 0) jToggleButton5.setSelected(false);
         if(tbc6.value() % 2 == 1) jToggleButton5.setSelected(true);
+        
+        if(tbc6.value() == 1) lit6 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc6.value()>=2) tbc6.down();
     }//GEN-LAST:event_jToggleButton5ActionPerformed
 
     private void jToggleButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton9ActionPerformed
         tbc7.up();
         
         if(tbc7.value()==2) new LogOutWindow(this, tbc7, jToggleButton9, fir35).setVisible(true);
-        if(tbc7.value()>=2) tbc7.down();
             
         if(tbc7.value() % 2 == 0) jToggleButton9.setSelected(false);
         if(tbc7.value() % 2 == 1) jToggleButton9.setSelected(true);
+        
+        if(tbc7.value() == 1) lit7 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc7.value()>=2) tbc7.down();
     }//GEN-LAST:event_jToggleButton9ActionPerformed
 
     private void jToggleButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton10ActionPerformed
         tbc8.up();
         
         if(tbc8.value()==2) new LogOutWindow(this, tbc8, jToggleButton10, fir2).setVisible(true);
-        if(tbc8.value()>=2) tbc8.down();
             
         if(tbc8.value() % 2 == 0) jToggleButton10.setSelected(false);
         if(tbc8.value() % 2 == 1) jToggleButton10.setSelected(true);
+        
+        if(tbc8.value() == 1) lit8 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc8.value()>=2) tbc8.down();
     }//GEN-LAST:event_jToggleButton10ActionPerformed
 
     private void jToggleButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton17ActionPerformed
         tbc9.up();
         
         if(tbc9.value()==2) new LogOutWindow(this, tbc9, jToggleButton17, fir9).setVisible(true);
-        if(tbc9.value()>=2) tbc9.down();
             
         if(tbc9.value() % 2 == 0) jToggleButton17.setSelected(false);
         if(tbc9.value() % 2 == 1) jToggleButton17.setSelected(true);
+        
+        if(tbc9.value() == 1) lit9 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc9.value()>=2) tbc9.down();
     }//GEN-LAST:event_jToggleButton17ActionPerformed
 
     private void jToggleButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton22ActionPerformed
         tbc10.up();
         
         if(tbc10.value()==2) new LogOutWindow(this, tbc10, jToggleButton22, fir15).setVisible(true);
-        if(tbc10.value()>=2) tbc10.down();
             
         if(tbc10.value() % 2 == 0) jToggleButton22.setSelected(false);
         if(tbc10.value() % 2 == 1) jToggleButton22.setSelected(true);
+        
+        if(tbc10.value() == 1) lit10 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc10.value()>=2) tbc10.down();
     }//GEN-LAST:event_jToggleButton22ActionPerformed
 
     private void jToggleButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton27ActionPerformed
         tbc11.up();
         
         if(tbc11.value()==2) new LogOutWindow(this, tbc11, jToggleButton27, fir20).setVisible(true);
-        if(tbc11.value()>=2) tbc11.down();
             
         if(tbc11.value() % 2 == 0) jToggleButton27.setSelected(false);
         if(tbc11.value() % 2 == 1) jToggleButton27.setSelected(true);
+        
+        if(tbc11.value() == 1) lit11 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc11.value()>=2) tbc11.down();
     }//GEN-LAST:event_jToggleButton27ActionPerformed
 
     private void jToggleButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton32ActionPerformed
         tbc12.up();
         
         if(tbc12.value()==2) new LogOutWindow(this, tbc12, jToggleButton32, fir26).setVisible(true);
-        if(tbc12.value()>=2) tbc12.down();
             
         if(tbc12.value() % 2 == 0) jToggleButton32.setSelected(false);
         if(tbc12.value() % 2 == 1) jToggleButton32.setSelected(true);
+        
+        if(tbc12.value() == 1) lit12 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc12.value()>=2) tbc12.down();
     }//GEN-LAST:event_jToggleButton32ActionPerformed
 
     private void jToggleButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton7ActionPerformed
         tbc13.up();
         
         if(tbc13.value()==2) new LogOutWindow(this, tbc13, jToggleButton7, fir33).setVisible(true);
-        if(tbc13.value()>=2) tbc13.down();
             
         if(tbc13.value() % 2 == 0) jToggleButton7.setSelected(false);
         if(tbc13.value() % 2 == 1) jToggleButton7.setSelected(true);
+        
+        if(tbc13.value() == 1) lit13 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc13.value()>=2) tbc13.down();
     }//GEN-LAST:event_jToggleButton7ActionPerformed
 
     private void jToggleButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton12ActionPerformed
         tbc14.up();
         
         if(tbc14.value()==2) new LogOutWindow(this, tbc14, jToggleButton12, fir4).setVisible(true);
-        if(tbc14.value()>=2) tbc14.down();
             
         if(tbc14.value() % 2 == 0) jToggleButton12.setSelected(false);
         if(tbc14.value() % 2 == 1) jToggleButton12.setSelected(true);
+        
+        if(tbc14.value() == 1) lit14 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc14.value()>=2) tbc14.down();
     }//GEN-LAST:event_jToggleButton12ActionPerformed
 
     private void jToggleButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton18ActionPerformed
         tbc15.up();
         
         if(tbc15.value()==2) new LogOutWindow(this, tbc15, jToggleButton18, fir10).setVisible(true);
-        if(tbc15.value()>=2) tbc15.down();
             
         if(tbc15.value() % 2 == 0) jToggleButton18.setSelected(false);
         if(tbc15.value() % 2 == 1) jToggleButton18.setSelected(true);
+        
+        if(tbc15.value() == 1) lit15 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc15.value()>=2) tbc15.down();
     }//GEN-LAST:event_jToggleButton18ActionPerformed
 
     private void jToggleButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton23ActionPerformed
         tbc16.up();
         
         if(tbc16.value()==2) new LogOutWindow(this, tbc16, jToggleButton23, fir16).setVisible(true);
-        if(tbc16.value()>=2) tbc16.down();
             
         if(tbc16.value() % 2 == 0) jToggleButton23.setSelected(false);
         if(tbc16.value() % 2 == 1) jToggleButton23.setSelected(true);
+        
+        if(tbc16.value() == 1) lit16 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc16.value()>=2) tbc16.down();
     }//GEN-LAST:event_jToggleButton23ActionPerformed
 
     private void jToggleButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton28ActionPerformed
         tbc17.up();
         
         if(tbc17.value()==2) new LogOutWindow(this, tbc17, jToggleButton28, fir21).setVisible(true);
-        if(tbc17.value()>=2) tbc17.down();
             
         if(tbc17.value() % 2 == 0) jToggleButton28.setSelected(false);
         if(tbc17.value() % 2 == 1) jToggleButton28.setSelected(true);
+        
+        if(tbc17.value() == 1) lit17 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc17.value()>=2) tbc17.down();
     }//GEN-LAST:event_jToggleButton28ActionPerformed
 
     private void jToggleButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton33ActionPerformed
         tbc18.up();
         
         if(tbc18.value()==2) new LogOutWindow(this, tbc18, jToggleButton33, fir27).setVisible(true);
-        if(tbc18.value()>=2) tbc18.down();
             
         if(tbc18.value() % 2 == 0) jToggleButton33.setSelected(false);
         if(tbc18.value() % 2 == 1) jToggleButton33.setSelected(true);
+        
+        if(tbc18.value() == 1) lit18 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc18.value()>=2) tbc18.down();
     }//GEN-LAST:event_jToggleButton33ActionPerformed
 
     private void jToggleButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton8ActionPerformed
         tbc19.up();
         
         if(tbc19.value()==2) new LogOutWindow(this, tbc19, jToggleButton8, fir34).setVisible(true);
-        if(tbc19.value()>=2) tbc19.down();
             
         if(tbc19.value() % 2 == 0) jToggleButton8.setSelected(false);
         if(tbc19.value() % 2 == 1) jToggleButton8.setSelected(true);
+        
+        if(tbc19.value() == 1) lit19 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc19.value()>=2) tbc19.down();
     }//GEN-LAST:event_jToggleButton8ActionPerformed
 
     private void jToggleButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton14ActionPerformed
         tbc20.up();
         
         if(tbc20.value()==2) new LogOutWindow(this, tbc20, jToggleButton14, fir6).setVisible(true);
-        if(tbc20.value()>=2) tbc20.down();
             
         if(tbc20.value() % 2 == 0) jToggleButton14.setSelected(false);
         if(tbc20.value() % 2 == 1) jToggleButton14.setSelected(true);
+        
+        if(tbc20.value() == 1) lit20 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc20.value()>=2) tbc20.down();
     }//GEN-LAST:event_jToggleButton14ActionPerformed
 
     private void jToggleButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton19ActionPerformed
         tbc21.up();
         
         if(tbc21.value()==2) new LogOutWindow(this, tbc21, jToggleButton19, fir11).setVisible(true);
-        if(tbc21.value()>=2) tbc21.down();
-            
+        
         if(tbc21.value() % 2 == 0) jToggleButton19.setSelected(false);
         if(tbc21.value() % 2 == 1) jToggleButton19.setSelected(true);
+        
+        if(tbc21.value() == 1) lit21 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc21.value()>=2) tbc21.down();
     }//GEN-LAST:event_jToggleButton19ActionPerformed
 
     private void jToggleButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton24ActionPerformed
         tbc22.up();
         
         if(tbc22.value()==2) new LogOutWindow(this, tbc22, jToggleButton24, fir17).setVisible(true);
-        if(tbc22.value()>=2) tbc22.down();
-            
+        
         if(tbc22.value() % 2 == 0) jToggleButton24.setSelected(false);
         if(tbc22.value() % 2 == 1) jToggleButton24.setSelected(true);
+        
+        if(tbc22.value() == 1) lit22 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc22.value()>=2) tbc22.down();
     }//GEN-LAST:event_jToggleButton24ActionPerformed
 
     private void jToggleButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton29ActionPerformed
         tbc23.up();
         
         if(tbc23.value()==2) new LogOutWindow(this, tbc23, jToggleButton29, fir22).setVisible(true);
-        if(tbc23.value()>=2) tbc23.down();
             
         if(tbc23.value() % 2 == 0) jToggleButton29.setSelected(false);
         if(tbc23.value() % 2 == 1) jToggleButton29.setSelected(true);
+        
+        if(tbc23.value() == 1) lit23 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc23.value()>=2) tbc23.down();
     }//GEN-LAST:event_jToggleButton29ActionPerformed
 
     private void jToggleButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton34ActionPerformed
         tbc24.up();
         
         if(tbc24.value()==2) new LogOutWindow(this, tbc24, jToggleButton34, fir28).setVisible(true);
-        if(tbc24.value()>=2) tbc24.down();
             
         if(tbc24.value() % 2 == 0) jToggleButton34.setSelected(false);
         if(tbc24.value() % 2 == 1) jToggleButton34.setSelected(true);
+        
+        if(tbc24.value() == 1) lit24 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc24.value()>=2) tbc24.down();
     }//GEN-LAST:event_jToggleButton34ActionPerformed
 
     private void jToggleButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton11ActionPerformed
         tbc25.up();
         
         if(tbc25.value()==2) new LogOutWindow(this, tbc25, jToggleButton11, fir3).setVisible(true);
-        if(tbc25.value()>=2) tbc25.down();
             
         if(tbc25.value() % 2 == 0) jToggleButton11.setSelected(false);
         if(tbc25.value() % 2 == 1) jToggleButton11.setSelected(true);
+        
+        if(tbc25.value() == 1) lit25 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc25.value()>=2) tbc25.down();
     }//GEN-LAST:event_jToggleButton11ActionPerformed
 
     private void jToggleButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton15ActionPerformed
         tbc26.up();
         
         if(tbc26.value()==2) new LogOutWindow(this, tbc26, jToggleButton15, fir7).setVisible(true);
-        if(tbc26.value()>=2) tbc26.down();
             
         if(tbc26.value() % 2 == 0) jToggleButton15.setSelected(false);
         if(tbc26.value() % 2 == 1) jToggleButton15.setSelected(true);
+        
+        if(tbc26.value() == 1) lit26 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc26.value()>=2) tbc26.down();
     }//GEN-LAST:event_jToggleButton15ActionPerformed
 
     private void jToggleButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton20ActionPerformed
         tbc27.up();
         
         if(tbc27.value()==2) new LogOutWindow(this, tbc27, jToggleButton20, fir13).setVisible(true);
-        if(tbc27.value()>=2) tbc27.down();
             
         if(tbc27.value() % 2 == 0) jToggleButton20.setSelected(false);
         if(tbc27.value() % 2 == 1) jToggleButton20.setSelected(true);
+        
+        if(tbc27.value() == 1) lit27 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc27.value()>=2) tbc27.down();
     }//GEN-LAST:event_jToggleButton20ActionPerformed
 
     private void jToggleButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton25ActionPerformed
         tbc28.up();
         
         if(tbc28.value()==2) new LogOutWindow(this, tbc28, jToggleButton25, fir18).setVisible(true);
-        if(tbc28.value()>=2) tbc28.down();
-            
+        
         if(tbc28.value() % 2 == 0) jToggleButton25.setSelected(false);
         if(tbc28.value() % 2 == 1) jToggleButton25.setSelected(true);
+        
+        if(tbc28.value() == 1) lit28 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc28.value()>=2) tbc28.down();
     }//GEN-LAST:event_jToggleButton25ActionPerformed
 
     private void jToggleButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton30ActionPerformed
         tbc29.up();
         
         if(tbc29.value()==2) new LogOutWindow(this, tbc29, jToggleButton30, fir24).setVisible(true);
-        if(tbc29.value()>=2) tbc29.down();
-            
+                    
         if(tbc29.value() % 2 == 0) jToggleButton30.setSelected(false);
         if(tbc29.value() % 2 == 1) jToggleButton30.setSelected(true);
+        
+        if(tbc29.value() == 1) lit29 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc29.value()>=2) tbc29.down();
     }//GEN-LAST:event_jToggleButton30ActionPerformed
 
     private void jToggleButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton35ActionPerformed
         tbc30.up();
         
         if(tbc30.value()==2) new LogOutWindow(this, tbc30, jToggleButton35, fir29).setVisible(true);
-        if(tbc30.value()>=2) tbc30.down();
-            
+        
         if(tbc30.value() % 2 == 0) jToggleButton35.setSelected(false);
         if(tbc30.value() % 2 == 1) jToggleButton35.setSelected(true);
+        
+        if(tbc30.value() == 1) lit30 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc30.value()>=2) tbc30.down();
     }//GEN-LAST:event_jToggleButton35ActionPerformed
 
     private void jToggleButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton13ActionPerformed
         tbc31.up();
         
         if(tbc31.value()==2) new LogOutWindow(this, tbc31, jToggleButton13, fir5).setVisible(true);
-        if(tbc31.value()>=2) tbc31.down();
-            
+        
         if(tbc31.value() % 2 == 0) jToggleButton13.setSelected(false);
         if(tbc31.value() % 2 == 1) jToggleButton13.setSelected(true);
+        
+        if(tbc31.value() == 1) lit31 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc31.value()>=2) tbc31.down();
     }//GEN-LAST:event_jToggleButton13ActionPerformed
 
     private void jToggleButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton16ActionPerformed
         tbc32.up();
         
         if(tbc32.value()==2) new LogOutWindow(this, tbc32, jToggleButton16, fir8).setVisible(true);
-        if(tbc32.value()>=2) tbc32.down();
-            
+        
         if(tbc32.value() % 2 == 0) jToggleButton16.setSelected(false);
         if(tbc32.value() % 2 == 1) jToggleButton16.setSelected(true);
+        
+        if(tbc32.value() == 1) lit32 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc32.value()>=2) tbc32.down();
     }//GEN-LAST:event_jToggleButton16ActionPerformed
 
     private void jToggleButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton21ActionPerformed
         tbc33.up();
         
         if(tbc33.value()==2) new LogOutWindow(this, tbc33, jToggleButton21, fir14).setVisible(true);
-        if(tbc33.value()>=2) tbc33.down();
-            
+        
         if(tbc33.value() % 2 == 0) jToggleButton21.setSelected(false);
         if(tbc33.value() % 2 == 1) jToggleButton21.setSelected(true);
+        
+        if(tbc33.value() == 1) lit33 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc33.value()>=2) tbc33.down();
     }//GEN-LAST:event_jToggleButton21ActionPerformed
 
     private void jToggleButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton26ActionPerformed
         tbc34.up();
         
         if(tbc34.value()==2) new LogOutWindow(this, tbc34, jToggleButton26, fir19).setVisible(true);
-        if(tbc34.value()>=2) tbc34.down();
             
         if(tbc34.value() % 2 == 0) jToggleButton26.setSelected(false);
         if(tbc34.value() % 2 == 1) jToggleButton26.setSelected(true);
+        
+        if(tbc34.value() == 1) lit34 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc34.value()>=2) tbc34.down();
     }//GEN-LAST:event_jToggleButton26ActionPerformed
 
     private void jToggleButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton31ActionPerformed
         tbc35.up();
         
         if(tbc35.value()==2) new LogOutWindow(this, tbc35, jToggleButton31, fir25).setVisible(true);
-        if(tbc35.value()>=2) tbc35.down();
             
         if(tbc35.value() % 2 == 0) jToggleButton31.setSelected(false);
         if(tbc35.value() % 2 == 1) jToggleButton31.setSelected(true);
+        
+        if(tbc35.value() == 1) lit35 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc35.value()>=2) tbc35.down();
     }//GEN-LAST:event_jToggleButton31ActionPerformed
 
     private void jToggleButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton36ActionPerformed
         tbc36.up();
         
         if(tbc36.value()==2) new LogOutWindow(this, tbc36, jToggleButton36, fir36).setVisible(true);
-        if(tbc36.value()>=2) tbc36.down();
             
         if(tbc36.value() % 2 == 0) jToggleButton36.setSelected(false);
         if(tbc36.value() % 2 == 1) jToggleButton36.setSelected(true);
+        
+        if(tbc36.value() == 1) lit36 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc36.value()>=2) tbc36.down();
     }//GEN-LAST:event_jToggleButton36ActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

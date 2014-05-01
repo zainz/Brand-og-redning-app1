@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class TimeLogDAL extends AbstractDAL {
     
     
-    public void timeRegister(String date, Firemen f, int role, int type, boolean holiday, String loginTime, String logoutTime) throws SQLException{
+    public void timeRegister(String date, Firemen f, int role, int type, boolean holiday, String loginTime, String logoutTime, int hours) throws SQLException{
         
         int ferieDag = (holiday) ? 1 : 0;
         
@@ -27,8 +27,8 @@ public class TimeLogDAL extends AbstractDAL {
         try{
             con = getConnection();
             stmt = con.createStatement();
-            stmt.executeUpdate("INSERT INTO midlertidig_løn (dato, brandmand, role, type_arbejde, ferie_dag, tid_logind, tid_logud) "
-                            + "VALUES ('" + date + "', '" + f.getCpr() + "', " + role + ", " + type + ", " + ferieDag + ", '" + loginTime + "', '" + logoutTime + "')");
+            stmt.executeUpdate("INSERT INTO midlertidig_løn (dato, brandmand, role, type_arbejde, ferie_dag, tid_logind, tid_logud, timer) "
+                            + "VALUES ('" + date + "', '" + f.getCpr() + "', " + role + ", " + type + ", " + ferieDag + ", '" + loginTime + "', '" + logoutTime + "', " + hours + ")");
         } finally{
             if(con != null) con.close();
         }

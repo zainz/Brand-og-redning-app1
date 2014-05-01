@@ -20,13 +20,15 @@ public class TimeLogDAL extends AbstractDAL {
     
     public void timeRegister(String date, Firemen f, int role, int type, boolean holiday, String loginTime, String logoutTime) throws SQLException{
         
+        int ferieDag = (holiday) ? 1 : 0;
+        
         Connection con = null;
         
         try{
             con = getConnection();
             stmt = con.createStatement();
             stmt.executeUpdate("INSERT INTO midlertidig_løn (dato, brandmand, role, type_arbejde, ferie_dag, tid_logind, tid_logud) "
-                            + "VALUES ('" + date + "', '" + f.getCpr() + "', " + role + ", " + type + ", " + holiday + ", '" + loginTime + "', '" + logoutTime + "')");
+                            + "VALUES ('" + date + "', '" + f.getCpr() + "', " + role + ", " + type + ", " + ferieDag + ", '" + loginTime + "', '" + logoutTime + "')");
         } finally{
             if(con != null) con.close();
         }

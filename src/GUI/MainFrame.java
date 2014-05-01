@@ -10,6 +10,9 @@ import BE.ButtonClickCounter;
 import BE.Firemen;
 import BLL.TimeLogBLL;
 import java.sql.SQLException;
+import java.sql.Time;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.JToggleButton;
@@ -33,6 +36,11 @@ public class MainFrame extends javax.swing.JFrame {
                         tbc12,tbc13,tbc14,tbc15,tbc16,tbc17,tbc18,tbc19,tbc20,
                         tbc21,tbc22,tbc23,tbc24,tbc25,tbc26,tbc27,tbc28,tbc29,
                         tbc30,tbc31,tbc32,tbc33,tbc34,tbc35,tbc36;
+    
+    String              lit1, lit2, lit3, lit4, lit5, lit6, lit7, lit8, lit9, lit10,
+                        lit11, lit12, lit13, lit14, lit15, lit16, lit17, lit18, lit19,
+                        lit20, lit21, lit22, lit23, lit24, lit25, lit26, lit27, lit28,
+                        lit29, lit30, lit31, lit32, lit33, lit34, lit35, lit36;
     /**
      * Creates new form MainFrame
      */
@@ -533,11 +541,14 @@ public class MainFrame extends javax.swing.JFrame {
     private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
         tbc1.up();
         
-        if(tbc1.value() == 2) new LogOutWindow(this, tbc1, jToggleButton1, fir1).setVisible(true);
-        if(tbc1.value() >= 2) tbc1.down();
+        if(tbc1.value() == 2) new LogOutWindow(this, tbc1, jToggleButton1, fir1, lit1).setVisible(true);
         
-        if(tbc1.value() == 0) jToggleButton1.setSelected(false);
-        if(tbc1.value() == 1) jToggleButton1.setSelected(true);
+        if(tbc1.value() % 2 == 0) jToggleButton1.setSelected(false);
+        if(tbc1.value() % 2 == 1) jToggleButton1.setSelected(true);
+        
+        if(tbc1.value() == 1) lit1 = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
+        
+        if(tbc1.value() >= 2) tbc1.down();
     }//GEN-LAST:event_jToggleButton1ActionPerformed
 
     private void jToggleButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton2ActionPerformed

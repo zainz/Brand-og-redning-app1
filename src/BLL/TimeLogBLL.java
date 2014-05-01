@@ -8,7 +8,6 @@ import BE.Firemen;
 import DAL.TimeLogDAL;
 import java.util.Date;
 import java.sql.SQLException;
-import java.sql.Time;
 import java.sql.Timestamp;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -24,8 +23,7 @@ public class TimeLogBLL {
     
     public void timeRegister(Firemen f, int type, int role, boolean holiday, String loginTime) throws SQLException{
         
-        Time logoutTime = Time.valueOf(String.valueOf(new Timestamp(System.currentTimeMillis())));
-        String time = new SimpleDateFormat("HH:mm:ss").format(logoutTime);
+        String time = new SimpleDateFormat("HH:mm:ss").format(new Timestamp(System.currentTimeMillis()));
         
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
         Date d = new Date();

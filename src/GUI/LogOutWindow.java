@@ -30,17 +30,21 @@ public class LogOutWindow extends javax.swing.JFrame {
      * Creates new form LogOutWindow
      */
     
-    public LogOutWindow(MainFrame mf, ButtonClickCounter number, JToggleButton tBtn, Firemen firemen) {
-        initComponents();
-        mainFrame = mf;
-        btnNumber = number;
-        toggleBtn = tBtn;
-        f = firemen;
-        tl = new TimeLogBLL();
-    }
+//    public LogOutWindow(MainFrame mf, ButtonClickCounter number, JToggleButton tBtn, Firemen firemen) {
+//        initComponents();
+//        mainFrame = mf;
+//        btnNumber = number;
+//        toggleBtn = tBtn;
+//        f = firemen;
+//        tl = new TimeLogBLL();
+//    }
     
     public LogOutWindow(MainFrame mf, ButtonClickCounter number, JToggleButton tBtn, Firemen firemen, String lt) {
         initComponents();
+        setTitle("Brand og Redning Esbjerg");
+        setResizable(false);
+        setLocationRelativeTo(null);
+        
         mainFrame = mf;
         btnNumber = number;
         toggleBtn = tBtn;
